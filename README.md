@@ -9,3 +9,5 @@
 
 The new captcha relies on your IP and cookies as far as I know, therefore trying to post with a captcha that was solved before you toggled the proxy will not work.
 Always solve captchas **AFTER** you toggle the proxy.
+
+[Download here](https://github.com/kopeyy/4Chan-XP/releases/download/1.0/4Chan.XP.crx)
