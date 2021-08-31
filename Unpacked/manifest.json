@@ -1,0 +1,27 @@
+{
+  "name": "4Chan XP",
+  "version": "1.0",
+  "description": "Shitpost more conveniently",
+  "permissions": [
+    "proxy",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "cookies",
+    "http://*/*",
+    "https://*/*",
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "matches": ["https://boards.4chan.org/*/thread/*", "https://boards.4channel.org/*/thread/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "manifest_version": 2
+}
