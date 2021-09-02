@@ -1,5 +1,5 @@
 # 4Chan-XP
-4Chan XP is an extension that helps you switch proxies with ease for more shitposting
+4Chan XP is an extension that helps you switch proxies with ease on 4chan
 
 ![](https://files.catbox.moe/hnnw8v.png)
 
